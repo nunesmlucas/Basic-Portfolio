@@ -1,35 +1,22 @@
 body{
-    /* background-color: bisque; */
     background-image: url("../Basic-Portfolio/assets/images/folk-pattern-black.png");
     width: 100%;
-    /* font-family: Georgia,"Times New Roman",Times,serif; */
     height: 1000px;
     position: relative;
-    /* height: 100%; */
-    /* margin: auto;
-    overflow: scroll; */
 }
 h1{
     background-color: teal;
-    /* padding: 15px; */
-    /* display: inline-block; */
-    /* float: left; */
     text-align: center;
     color: white;
-    /* position: absolute; */
 }
 header{
     background-color: gainsboro;
     margin: -8px;
-    /* position: relative; */
     height: 87px; 
     margin-bottom: 40px; 
 
 }
 header h1{
-    /* position: relative; */
-    /* padding-left: 30px; */
-    /* margin-left: 35px; */
     position: relative;
     bottom: 0;
     /* float: left; */
@@ -72,21 +59,10 @@ a:hover{
 }
 #portfolioDiv{
     position: relative;
-    /* display: inline-block; */
     background-color: gainsboro;
     width: 55%;
-    /* height: 600px;    */
     margin: auto; 
-    /* padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px; */
 }
-/* .portIcons{
-    padding: 10px;
-    width: 200px;
-    height: 20%;
-
-} */
 #ulDiv img{
     padding: 10px;
     width: 35%;
@@ -120,6 +96,10 @@ h2{
     width: 10%;
     
 }
+form{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 .infoInput{
     width: 60%;
 }
@@ -135,47 +115,38 @@ form textarea{
 #ulDiv ul{
     position: relative;
 }
-/* Tried to get this to indent - wasnt required. */
 p{
-
+/* Tried to get this to indent - wasnt required. */
     margin: 10px;
     /* text-indent: 50px;
     float: left;  
     padding: 10px;   */
 }
 
-/* Footer sitting at bottom attempt */
-/* .page-wrap {
-    min-height: 100%;
-    equal to footer height
-    margin-bottom: -8%px; 
-  }
-.page-wrap:after {
-    content: "";
-    display: block;
-  }
-footer .page-wrap:after {
-    height: 8%; 
-  } */
+.footer {
 
-footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
+    height:8%; 
     width: 100%;
-    height: 8%;
     background-color: darkgrey;
     color: white;
-    left: 0;
-    right: 0;
-    /* padding-top: 0px; */
-    
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+}   
+
+.footer_contents {
+    height:8%; 
+    width: 1000px;
+    margin:auto;
 }
+
 footer p{
     position: absolute;
     text-align: center;
     width: 100%;
     bottom: 0;
-    /* left: 42%; */
-
 }
