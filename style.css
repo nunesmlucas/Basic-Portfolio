@@ -3,6 +3,11 @@ body{
     background-image: url("../Basic-Portfolio/assets/images/folk-pattern-black.png");
     width: 100%;
     /* font-family: Georgia,"Times New Roman",Times,serif; */
+    height: 1000px;
+    position: relative;
+    /* height: 100%; */
+    /* margin: auto;
+    overflow: scroll; */
 }
 h1{
     background-color: teal;
@@ -65,6 +70,29 @@ a:hover{
     padding-right: 10px;
     padding-left: 10px;
 }
+#portfolioDiv{
+    position: relative;
+    /* display: inline-block; */
+    background-color: gainsboro;
+    width: 55%;
+    /* height: 600px;    */
+    margin: auto; 
+    /* padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+}
+/* .portIcons{
+    padding: 10px;
+    width: 200px;
+    height: 20%;
+
+} */
+#ulDiv img{
+    padding: 10px;
+    width: 35%;
+    height: 150px;
+    
+}
 #mainDiv h2{
     padding-left: 20px;
     padding-top: 10px;
@@ -104,6 +132,9 @@ form textarea{
  min-width: 60px;
  min-height: 30px;
 }
+#ulDiv ul{
+    position: relative;
+}
 /* Tried to get this to indent - wasnt required. */
 p{
 
@@ -113,7 +144,21 @@ p{
     padding: 10px;   */
 }
 
-footer{
+/* Footer sitting at bottom attempt */
+/* .page-wrap {
+    min-height: 100%;
+    equal to footer height
+    margin-bottom: -8%px; 
+  }
+.page-wrap:after {
+    content: "";
+    display: block;
+  }
+footer .page-wrap:after {
+    height: 8%; 
+  } */
+
+footer {
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -123,7 +168,7 @@ footer{
     color: white;
     left: 0;
     right: 0;
-    padding-top: 0px;
+    /* padding-top: 0px; */
     
 }
 footer p{
