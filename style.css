@@ -19,7 +19,6 @@ header{
 header h1{
     position: relative;
     bottom: 0;
-    /* float: left; */
     display: inline-block;
     padding:15px;
     left: 15.5%;
@@ -48,10 +47,8 @@ a:hover{
 }
 #mainDiv{
     position: relative;
-    /* display: inline-block; */
     background-color: gainsboro;
-    width: 70%;
-    /* height: 600px;    */
+    width: 960px;
     margin: auto; 
     padding-bottom: 10px;
     padding-right: 10px;
@@ -85,12 +82,10 @@ h2{
     position: relative;
     padding-left: 15px;
     padding-top: 10px;
-    /* padding-top: -115px;  */
 }
 #mainImg img{
-    width: 35%;
+    width: 30%;
     float: left;
-    /* height: 60%; */
     padding: 10px;  
 }
 #submitButton{
@@ -118,9 +113,7 @@ form textarea{
  min-width: 60px;
  min-height: 30px;
 }
-/* #ulDiv a{
-    position: relative;
-} */
+
 p{
 /* Tried to get this to indent - wasnt required. */
     margin: 10px;
@@ -155,4 +148,5 @@ footer p{
     text-align: center;
     width: 100%;
     bottom: 0;
+    left: 0;
 }
