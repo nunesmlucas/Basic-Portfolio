@@ -63,10 +63,14 @@ a:hover{
     width: 55%;
     margin: auto; 
 }
-#ulDiv img{
-    padding: 10px;
+#portfolioDiv hr{
+    width: 90%;
+}
+#imageWrap img{
+    padding: 15px;
     width: 35%;
     height: 150px;
+    padding-left: 40px;
     
 }
 #mainDiv h2{
@@ -79,6 +83,8 @@ a:hover{
 h2{
     color:teal;
     position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
     /* padding-top: -115px;  */
 }
 #mainImg img{
@@ -112,9 +118,9 @@ form textarea{
  min-width: 60px;
  min-height: 30px;
 }
-#ulDiv ul{
+/* #ulDiv a{
     position: relative;
-}
+} */
 p{
 /* Tried to get this to indent - wasnt required. */
     margin: 10px;
