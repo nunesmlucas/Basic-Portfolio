@@ -1,5 +1,6 @@
 body{
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-image: url("../Basic-Portfolio/assets/images/folk-pattern-black.png");
     width: 100%;
     /* font-family: Georgia,"Times New Roman",Times,serif; */
 }
@@ -13,7 +14,7 @@ h1{
     /* position: absolute; */
 }
 header{
-    background-color: white;
+    background-color: gainsboro;
     margin: -8px;
     /* position: relative; */
     height: 87px; 
@@ -35,17 +36,17 @@ header h1{
     position: relative;
     top: 40px;
     right: 17%;
-    background-color: white;
+    background-color: gainsboro;
     float: right;
     font-size: 20px;
 
 }
 a{
-    color: grey;
+    color: dimgray;
 }
 a:link{
     text-decoration: none;
-    color: grey;
+    color: dimgrey;
 }
 a:visited{
     text-decoration: none;
@@ -56,7 +57,7 @@ a:hover{
 #mainDiv{
     position: relative;
     /* display: inline-block; */
-    background-color: white;
+    background-color: gainsboro;
     width: 70%;
     /* height: 600px;    */
     margin: auto; 
@@ -82,34 +83,37 @@ h2{
     /* height: 60%; */
     padding: 10px;  
 }
-/* #mainDiv img{
-    width: 40%;
-    float: left;
-    height: 60%;
-    padding: 10px;  
-} */
-
-
+#submitButton{
+    background-color: teal;
+    color: white;
+    min-width: 60px;
+    min-height: 30px;
+    height: 10%;
+    width: 10%;
+    
+}
+.infoInput{
+    width: 60%;
+}
+form textarea{
+    width: 60%;
+    height:120px;
+}
+#submitButton{
+ width: 20%;
+ min-width: 60px;
+ min-height: 30px;
+}
 /* Tried to get this to indent - wasnt required. */
 p{
 
     margin: 10px;
-
     /* text-indent: 50px;
     float: left;  
     padding: 10px;   */
 }
 
 footer{
-
-    /* background-color: darkgrey;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    position: absolute; 
-    bottom: 0;
-    left: 45%; */
-
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -119,5 +123,14 @@ footer{
     color: white;
     left: 0;
     right: 0;
+    padding-top: 0px;
+    
+}
+footer p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    /* left: 42%; */
 
 }
