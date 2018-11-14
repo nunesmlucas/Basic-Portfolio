@@ -12,13 +12,12 @@ h1{
 header{
     background-color: gainsboro;
     margin: -8px;
-    height: 87px; 
+    height: 88px; 
     margin-bottom: 40px; 
 
 }
 header h1{
     position: relative;
-    bottom: 0;
     display: inline-block;
     padding:15px;
     left: 15.5%;
@@ -59,31 +58,33 @@ a:hover{
     background-color: gainsboro;
     width: 960px;
     margin: auto;
-    /* height: auto; */
+    padding-bottom: 20px;
 }
 #portfolioDiv hr{
     width: 90%;
+}
+#imageWrap{
+    margin: auto;
 }
 .portWrap{
     float: left;
     padding: 15px;
     margin-right: -140px;
     /* padding-left: 40px; */
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .portWrap2{
     padding: 15px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: -140px;
     clear: both;
     float: left;
 }
 .portWrapLast{
     clear: both;
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 15px;
     margin-top: 20px;
-
 }
 .portWrap span{
     background-color: teal;
@@ -219,6 +220,7 @@ p{
 
 footer p{
     position: absolute;
+    font-size: 14pt;
     text-align: center;
     width: 100%;
     bottom: 0;
