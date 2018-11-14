@@ -104,7 +104,6 @@ a:hover{
     left: -204px;
     bottom: -20px;
     padding: 10px;
-    z-index: 1;
     width: 180px;
 }
 .portWrap2 span{
@@ -117,7 +116,6 @@ a:hover{
     left: -204px;
     bottom: -20px;
     padding: 10px;
-    z-index: 1;
     width: 180px;
 }
 .portWrapLast span{
