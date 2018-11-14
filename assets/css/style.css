@@ -25,6 +25,20 @@ header h1{
     padding-bottom: 16px;
     left: 15.5%;
 }
+header h1 a{
+    color: white;
+}
+:link{
+    text-decoration: none;
+}
+:visited{
+    text-decoration: none;
+}
+:hover{
+    text-decoration: none;
+}
+
+
 .nav{
     position: relative;
     top: 40px;
@@ -34,17 +48,17 @@ header h1{
     font-size: 20px;
 
 }
-a{
+.nav a{
     color: dimgray;
 }
-a:link{
+.nav a:link{
     text-decoration: none;
     color: dimgrey;
 }
-a:visited{
+.nav a:visited{
     text-decoration: none;
 }
-a:hover{
+.nav a:hover{
     text-decoration: underline;
 }
 #mainDiv{
