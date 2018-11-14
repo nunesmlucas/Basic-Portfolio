@@ -1,0 +1,183 @@
+body{
+    background-image: url("../images/folk-pattern-black.png");
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+h1{
+    background-color: teal;
+    text-align: center;
+    color: white;
+}
+header{
+    background-color: gainsboro;
+    margin: -8px;
+    height: 87px; 
+    margin-bottom: 40px; 
+
+}
+header h1{
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    padding:15px;
+    left: 15.5%;
+}
+.nav{
+    position: relative;
+    top: 40px;
+    right: 17%;
+    background-color: gainsboro;
+    float: right;
+    font-size: 20px;
+
+}
+a{
+    color: dimgray;
+}
+a:link{
+    text-decoration: none;
+    color: dimgrey;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#mainDiv{
+    position: relative;
+    background-color: gainsboro;
+    width: 960px;
+    margin: auto; 
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#portfolioDiv{
+    position: relative;
+    background-color: gainsboro;
+    width: 960px;
+    margin: auto; 
+
+}
+#portfolioDiv hr{
+    width: 90%;
+}
+.portWrap{
+    float: left;
+    padding: 15px;
+    /* padding-left: 40px; */
+}
+.portWrap2{
+    padding: 15px;
+    clear: both;
+    float: left;
+}
+.portWrapLast{
+    clear: both;
+    padding: 15px;
+
+}
+/* img .portWrap{
+    
+} */
+
+#imageWrap img{
+    width: 200px;
+    height: 150px;
+}
+#mainDiv h2{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#mainDiv hr{
+    width: 90%;
+}
+h2{
+    color:teal;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#mainImg img{
+    width: 30%;
+    float: left;
+    padding: 10px;  
+}
+#submitButton{
+    background-color: #4aaaa5;
+    color: white;
+    min-width: 60px;
+    min-height: 30px;
+    height: 10%;
+    width: 10%;
+    
+}
+form{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.infoInput{
+    width: 60%;
+}
+form textarea{
+    width: 60%;
+    height:120px;
+}
+#submitButton{
+ width: 20%;
+ min-width: 60px;
+ min-height: 30px;
+}
+
+p{
+/* Tried to get this to indent - wasnt required. */
+    margin: 10px;
+    /* color: #777777; */
+    /* text-indent: 50px;
+    float: left;  
+    padding: 10px;   */
+}
+.footer {
+    height:8%; 
+    width: 100%;
+    background-color: darkgrey;
+    color: white;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    z-index: 1;
+}   
+.footer2 {
+    height:9%; 
+    width: 100%;
+    background-color: #4aaaa5;
+    color: white;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    z-index: 0;
+    bottom: 0pt;
+    left: 0pt;
+}   
+
+.footer_contents {
+    height:8%; 
+    width: 1000px;
+    margin:auto;
+}
+
+footer p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
