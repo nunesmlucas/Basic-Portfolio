@@ -71,6 +71,7 @@ a:hover{
 }
 #textDiv p{
     padding-top: 10px;
+    margin-left: 10px;
 }
 .portWrap{
     float: left;
