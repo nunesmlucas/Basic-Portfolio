@@ -64,17 +64,28 @@ a:hover{
 #portfolioDiv hr{
     width: 90%;
 }
+.portWrap{
+    float: left;
+    padding: 15px;
+    /* padding-left: 40px; */
+}
+.portWrap2{
+    padding: 15px;
+    clear: both;
+    float: left;
+}
+.portWrapLast{
+    clear: both;
+    padding: 15px;
+
+}
+/* img .portWrap{
+    
+} */
 
 #imageWrap img{
-    padding: 15px;
-    width: 35%;
+    width: 200px;
     height: 150px;
-    padding-left: 40px;
-}
-
-.portWrap{
-    /* display: inline-block; */
-    /* float: left; */
 }
 #mainDiv h2{
     padding-left: 20px;
