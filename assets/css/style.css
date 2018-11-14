@@ -58,8 +58,8 @@ a:hover{
     position: relative;
     background-color: gainsboro;
     width: 960px;
-    margin: auto; 
-
+    margin: auto;
+    /* height: auto; */
 }
 #portfolioDiv hr{
     width: 90%;
@@ -67,21 +67,64 @@ a:hover{
 .portWrap{
     float: left;
     padding: 15px;
+    margin-right: -140px;
     /* padding-left: 40px; */
+    margin-left: 20px;
 }
 .portWrap2{
     padding: 15px;
+    margin-left: 20px;
+    margin-right: -140px;
     clear: both;
     float: left;
 }
 .portWrapLast{
     clear: both;
+    margin-left: 20px;
     padding: 15px;
+    margin-top: 20px;
 
 }
-/* img .portWrap{
-    
-} */
+.portWrap span{
+    background-color: teal;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: -204px;
+    bottom: -20px;
+    padding: 10px;
+    z-index: 1;
+    width: 180px;
+}
+.portWrap2 span{
+    background-color: teal;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: -204px;
+    bottom: -20px;
+    padding: 10px;
+    z-index: 1;
+    width: 180px;
+}
+.portWrapLast span{
+    background-color: teal;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: -204px;
+    bottom: -20px;
+    padding: 10px;
+    z-index: 1;
+    width: 180px;
+}
+
 
 #imageWrap img{
     width: 200px;
