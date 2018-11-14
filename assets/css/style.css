@@ -70,6 +70,7 @@ a:hover{
     margin: auto;
 }
 #textDiv p{
+    text-indent: 30pt;
     padding-top: 10px;
     margin-left: 10px;
 }
